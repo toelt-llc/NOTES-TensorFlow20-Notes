@@ -79,3 +79,7 @@ and therefore needs additional components. Those are not relevant for everyone.
 2. TFX (create and manage a production pipeline)
 
 
+If you master the __basics__ you are already well underway to master TensorFlow 2.0 and can 
+already build some quite complicated models. The moment you want to use more complex 
+architectures (for example Multi Task Learning, or networks with multiple inputs or outputs) 
+then the Keras functional APIs comes to rescue and will give you quite some flexibility.
