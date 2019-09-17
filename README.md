@@ -13,6 +13,14 @@ In case you want to contact me, drop me an email at [umberto.michelucci@toelt.ai
 This repository contains Various notes and tutorials on TensorFlow 2.0 that I am working on.
 All examples are Jupyter notebooks, since in this way is easier to explain concepts and add examples.
 
+# How to work with the notebooks
+
+All the notebooks that you can find in this repository can be run (and have been tested) on Google Colab. Especially since
+I select the 2.X TensorFlow version with the magic command `%tensorflow_version 2.x` that is __only__ available in 
+Google Colab. If you open in Github the notebooks (in case Github render the notebook properly... Sometime Github have problems doing that, but that is not related to the notebooks. Is a known Github problem) you will find a button
+at the top "open in Google Colab". Just click it and the notebook will open in Google Colab. In case Github does not render 
+it properly, simply copy the URL of the notebook and open it in Goolge Colab (to know how check this link https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).
+
 # How to work with TensorFlow 2.0
 
 The easiest way to work with TF2.0 is to use Google Colab. In this way you don't have to install anything.
