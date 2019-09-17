@@ -52,7 +52,25 @@ how `@tf.function` is working
 2. Eager Execution (basics and subtelties)
 3. `tf.Variable` (aka no need to initialize them anymore in eager mode)
 4. Keras basics (`Sequential()` models, `.compile()` and `.fit()` calls)
+5. `tf.data.Dataset` 
 
 ## Advanced
 
-1. 
+1. Keras functional APIs 
+2. Custom layers in Keras
+3. Custom callnbacks in Keras
+4. Keras metrics
+5. Autodifferentiation (`tf.GradientTape()`) and custom training loops
+6. Custom layers and models
+7. Save and load models
+8. Using CPUs, GPUs and TPUs (hardware acceleration)
+
+## Subjects that are related to production-grade models
+
+The following aspects are relevant when you need to deploy models in a productive environment 
+and therefore needs additional components. Those are not relevant for everyone.
+
+1. Distributed training
+2. TFX (create and manage a production pipeline)
+
+
