@@ -49,3 +49,11 @@ too early.
 Check my suggestions here
 
 https://github.com/michelucci/TensorFlow20-Notes/blob/master/howto_study_TF20.md
+
+# Some references
+
+In the file
+
+https://github.com/michelucci/TensorFlow20-Notes/blob/master/REFERENCES.md
+
+you can find some suggestions for good books.
