@@ -1,5 +1,7 @@
 # Suggestions on how to study TensorFlow 2.0
 
+Author: Umberto Michelucci (umberto.michelucci@toelt.ai)
+
 I will try to give some suggestions on how to approach the study of TensorFlow 2.0. 
 In particular I will try to highlight the right order in which to tackle different parts. 
 I will separate each part in sections, and in each sections try to put material that is useful to
