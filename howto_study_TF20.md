@@ -1,6 +1,7 @@
 # Suggestions on how to study TensorFlow 2.0
 
 Author: Umberto Michelucci (umberto.michelucci@toelt.ai)
+(Thanks to Feedback from Paolo Galeone https://github.com/galeone)
 
 I will try to give some suggestions on how to approach the study of TensorFlow 2.0. 
 In particular I will try to highlight the right order in which to tackle different parts. 
@@ -27,6 +28,7 @@ Additionally, the `tf.function` annotation transparently translates your Python 
 single-node/multi-accelerator as well as multi-node/multi-accelerator configurations, including TPU Pods. 
 * Export to `SavedModel`. TensorFlow will standardize on SavedModel as an interchange format for TensorFlow Serving, 
 TensorFlow Lite, TensorFlow.js, TensorFlow Hub, and more.
+* Tensorflow Datasets
 
 Once you’ve trained and saved your model, you can execute it directly in your application or serve it using one 
 of the deployment libraries:
@@ -51,16 +53,16 @@ the following order for studying TF 2.0 (splitted in __basics__ and __advanced__
 2. Computational graphs basics (this is relevant when you are going to study how `@tf.function` works and how it creates a 
 graph in the background. Unless you understand how Computational graphs are working, you will not really understand
 how `@tf.function` is working)
-2. Eager Execution (basics and subtelties)
-3. `tf.Variable` (aka no need to initialize them anymore in eager mode)
-4. Keras basics (`Sequential()` models, `.compile()` and `.fit()` calls)
-5. `tf.data.Dataset` 
-6. `tf.keras.preprocessing.image.ImageDataGenerator` for data augmentation and for working with images
-efficiently
+3. Eager Execution (basics and subtelties)
+4. `tf.Variable` (aka no need to initialize them anymore in eager mode)
+5. Keras basics (`Sequential()` models, `.compile()` and `.fit()` calls)
+6. Keras functional APIs 
+7. `tf.data.Dataset` and data processing pipelines
+
 
 ## Advanced
 
-1. Keras functional APIs 
+1. Model subclassing
 2. Custom layers in Keras
 3. Custom callbacks in Keras
 4. `@tf.function`
