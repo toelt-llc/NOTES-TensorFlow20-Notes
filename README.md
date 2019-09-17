@@ -31,3 +31,13 @@ At the moment I am writing the ```rc0``` TensorFlow version is out. So I get thi
 
     TensorFlow 2.x selected.
     2.0.0-rc0
+
+# How should I study TF 2.0?
+
+In case you are wondering what is the best strategy to study TensorFlow 2.0 I have a file that will give you some tips
+on how to approach the subject. TensorFlow 2.0 is not easy and require some know-how and effort. Don't give up
+too early.
+
+Check my suggestions here
+
+https://github.com/michelucci/TensorFlow20-Notes/blob/master/howto_study_TF20.md
