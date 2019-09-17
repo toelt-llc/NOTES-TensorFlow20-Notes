@@ -48,7 +48,7 @@ the following order for studying TF 2.0 (splitted in __basics__ and __advanced__
 1. Tensors
 2. Computational graphs basics (this is relevant when you are going to study how `@tf.function` works and how it creates a 
 graph in the background. Unless you understand how Computational graphs are working, you will not really understand
-how `@tf.function` is working
+how `@tf.function` is working)
 2. Eager Execution (basics and subtelties)
 3. `tf.Variable` (aka no need to initialize them anymore in eager mode)
 4. Keras basics (`Sequential()` models, `.compile()` and `.fit()` calls)
@@ -61,11 +61,12 @@ efficiently
 1. Keras functional APIs 
 2. Custom layers in Keras
 3. Custom callbacks in Keras
-4. Keras metrics
-5. Autodifferentiation (`tf.GradientTape()`) and custom training loops
-6. Custom layers and models
-7. Save and load models
-8. Using CPUs, GPUs and TPUs (hardware acceleration)
+4. `@tf.function`
+5. Keras metrics
+6. Autodifferentiation (`tf.GradientTape()`) and custom training loops
+7. Custom layers and models
+8. Save and load models
+9. Using CPUs, GPUs and TPUs (hardware acceleration)
 
 ## Subjects that are related to production-grade models
 
