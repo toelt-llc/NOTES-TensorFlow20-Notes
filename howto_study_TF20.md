@@ -53,12 +53,14 @@ how `@tf.function` is working
 3. `tf.Variable` (aka no need to initialize them anymore in eager mode)
 4. Keras basics (`Sequential()` models, `.compile()` and `.fit()` calls)
 5. `tf.data.Dataset` 
+6. `tf.keras.preprocessing.image.ImageDataGenerator` for data augmentation and for working with images
+efficiently
 
 ## Advanced
 
 1. Keras functional APIs 
 2. Custom layers in Keras
-3. Custom callnbacks in Keras
+3. Custom callbacks in Keras
 4. Keras metrics
 5. Autodifferentiation (`tf.GradientTape()`) and custom training loops
 6. Custom layers and models
